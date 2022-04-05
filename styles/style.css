@@ -1,11 +1,159 @@
-header{
+/* montserrat-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/montserrat-v23-latin_cyrillic-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v23-latin_cyrillic-500.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/montserrat-v23-latin_cyrillic-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/montserrat-v23-latin_cyrillic-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* oswald-500 - latin_cyrillic */
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+    url('../fonts/oswald-v47-latin_cyrillic-500.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/oswald-v47-latin_cyrillic-500.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+body {
+  font-family: 'Oswald';
+  color: #060D10;
+}
+
+
+/* header */
+header {
   background-color: #66D1FF;
 }
 
-footer{
-  background: pink;
+.header-btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
 }
 
-.promo{
- background-image: url(../images/promo.png);
+.header-phone {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 34px;
+
+}
+
+
+/* promo */
+
+.promo {
+  color: #FFF;
+  background-image: url(../images/promo.png);
+}
+
+.promo-title {
+  font-size: 60px;
+  line-height: 89px;
+  text-shadow: 1px 1px 2px #060D10;
+  ;
+}
+
+.promo-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-shadow: 1px 1px 2px #060D10;
+}
+
+/* benefits */
+
+.benefits-title {
+  font-size: 48px;
+  line-height: 53px;
+}
+
+.benefits-item {
+  font-size: 32px;
+  line-height: 53px;
+}
+
+.benefits-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  opacity: 0.8;
+}
+
+/* purchaise */
+
+
+.purchaise-title {
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.purchaise-btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  background: none;
+  border: 3px solid #060D10;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
+
+.purchaise-img {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #C4C4C4;
+}
+
+/* footer */
+footer {
+  background: #060D10;
+  ;
+}
+
+.footer-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 33px;
+  color: #fff;
+}
+
+.footer-copyright {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
 }

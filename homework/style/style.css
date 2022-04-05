@@ -1,0 +1,12 @@
+.table-text{
+  font: optional;
+
+}
+
+table,tr,td,th{
+  border: 2px  groove gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+
