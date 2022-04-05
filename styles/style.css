@@ -1,0 +1,11 @@
+header{
+  background-color: #66D1FF;
+}
+
+footer{
+  background: pink;
+}
+
+.promo{
+ background-image: url(../images/promo.png);
+}
