@@ -36,7 +36,7 @@
 
 
 body {
-  font-family: 'Oswald';
+  font-family: 'Oswald', sans-serif;
   color: #060D10;
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .header-btn {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
@@ -55,7 +55,7 @@ header {
 }
 
 .header-phone {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
@@ -69,6 +69,7 @@ header {
 .promo {
   color: #FFF;
   background-image: url(../images/promo.png);
+  background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25))
 }
 
 .promo-title {
@@ -79,7 +80,7 @@ header {
 }
 
 .promo-text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -88,6 +89,11 @@ header {
 }
 
 /* benefits */
+
+.benefits {
+  color: #060D10;
+  background: rgba(102, 209, 255, .1);
+}
 
 .benefits-title {
   font-size: 48px;
@@ -100,7 +106,7 @@ header {
 }
 
 .benefits-text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 26px;
@@ -111,13 +117,20 @@ header {
 /* purchaise */
 
 
+
+.purchaise {
+  color: #060D10;
+  background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+}
+
+
 .purchaise-title {
   font-size: 48px;
   line-height: 80px;
 }
 
 .purchaise-btn {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
@@ -141,7 +154,7 @@ footer {
 }
 
 .footer-text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -150,7 +163,7 @@ footer {
 }
 
 .footer-copyright {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
