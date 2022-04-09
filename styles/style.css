@@ -44,6 +44,12 @@ body {
 /* header */
 header {
   background-color: #66D1FF;
+  text-align: center;
+}
+
+.header-feed{
+  padding: 31px 0 30.24px 0;
+
 }
 
 .header-btn {
@@ -52,7 +58,12 @@ header {
   font-weight: 500;
   font-size: 24px;
   line-height: 29px;
+  background-color: #FFF;
+  border: 3px solid #fff ;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
+
 
 .header-phone {
   font-family: 'Montserrat', sans-serif;
@@ -66,10 +77,21 @@ header {
 
 /* promo */
 
+
+
 .promo {
   color: #FFF;
-  background-image: url(../images/promo.png);
-  background: linear-gradient(0deg, rgba(6, 13, 16, 0.25), rgba(6, 13, 16, 0.25))
+  background-image: url(../images/promo.jpg);
+  background-color: rgba(6, 13, 16, 0.25);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+.promo-feed{
+  padding: 240px  0 260px 0;
+  margin: 0 auto;
 }
 
 .promo-title {
@@ -93,6 +115,11 @@ header {
 .benefits {
   color: #060D10;
   background: rgba(102, 209, 255, .1);
+  text-align: center;
+}
+
+.benefits-feed{
+  padding: 170px 0 ;
 }
 
 .benefits-title {
@@ -121,9 +148,13 @@ header {
 .purchaise {
   color: #060D10;
   background: linear-gradient(208.35deg, rgba(102, 209, 255, .1) 43.85%, rgba(196, 196, 196, 0) 43.86%);
+  text-align: center;
 }
 
 
+.purchaise-feed{
+  padding: 170px 0 180px 0;
+}
 .purchaise-title {
   font-size: 48px;
   line-height: 80px;
@@ -149,8 +180,12 @@ header {
 
 /* footer */
 footer {
-  background: #060D10;
-  ;
+  background-color: #060D10;
+  text-align: center;
+}
+
+.footer-feed{
+  padding: 35px 0;
 }
 
 .footer-text {
