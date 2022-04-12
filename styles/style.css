@@ -38,6 +38,7 @@
 body {
   font-family: 'Oswald', sans-serif;
   color: #060D10;
+  box-sizing: border-box;
 }
 
 
@@ -47,9 +48,14 @@ header {
   text-align: center;
 }
 
-.header-feed{
-  padding: 31px 0 30.24px 0;
+.header-fade{
+  padding: 34px 0 ;
 
+}
+
+.header-wrap{
+  display: flex;
+  justify-content: space-around;
 }
 
 .header-btn {
@@ -65,13 +71,16 @@ header {
 }
 
 
+
 .header-phone {
+  display: block;
+  margin: 0px;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 28px;
   line-height: 34px;
-
+  text-align: center;
 }
 
 
@@ -89,7 +98,7 @@ header {
 
 }
 
-.promo-feed{
+.promo-fade{
   padding: 240px  0 260px 0;
   margin: 0 auto;
 }
@@ -115,21 +124,32 @@ header {
 .benefits {
   color: #060D10;
   background: rgba(102, 209, 255, .1);
-  text-align: center;
+  /* text-align: center; */
 }
 
-.benefits-feed{
+.benefits-fade{
   padding: 170px 0 ;
 }
+
+.benefits-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
 
 .benefits-title {
   font-size: 48px;
   line-height: 53px;
+  text-align: center;
 }
 
 .benefits-item {
   font-size: 32px;
   line-height: 53px;
+  list-style: none;
+  width: 33.33%;
 }
 
 .benefits-text {
